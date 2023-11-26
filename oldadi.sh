@@ -13,7 +13,7 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 echo "Authentikasi pada server"
-IZIN=$( curl -s https://raw.githubusercontent.com/adisubagja/AutoScriptXray/master/register.txt | grep $MYIP )
+IZIN=$( curl -s https://raw.githubusercontent.com/TeknisiIT1/KIKO1/main/register.txt | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permintaan Diterima...${NC}"
 else
@@ -23,4 +23,4 @@ rm -f setup.sh
 rm -f adi.sh
 exit 0
 fi
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl wget && wget -q https://adisubagja.github.io/adisecretusaha/setup.sh && chmod +x setup.sh && ./setup.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl wget && wget -q https://surgahostinganaswae.com/SC/kiko1/setup.sh && chmod +x setup.sh && ./setup.sh
