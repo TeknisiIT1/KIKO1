@@ -19,4 +19,4 @@ rm -f adi.sh
 exit 0
 fi
 #sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && 
-apt update && apt install -y bzip2 gzip coreutils screen curl wget && wget -q https://tunnel1.networkcloud.my.id/setup.sh && chmod +x setup.sh && ./setup.sh
+apt update && apt install -y bzip2 gzip coreutils screen curl wget && wget -q https://surgahostinganaswae.com/SC/kiko1/setup.sh && chmod +x setup.sh && ./setup.sh
